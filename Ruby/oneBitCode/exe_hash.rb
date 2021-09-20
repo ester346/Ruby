@@ -1,0 +1,1 @@
+hash = {elemento1.gets.chomp:valor1}

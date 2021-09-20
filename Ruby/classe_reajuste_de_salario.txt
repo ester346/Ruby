@@ -1,0 +1,23 @@
+# 13. Crie um script em Ruby que leia o salário de um funcionário e uma porcentagem de reajuste. O script deve calcular e mostrar o salário reajustado.
+
+
+class Salario 
+  def calcula_salario (salario)
+  end 
+
+  def calcula_reajuste (reajuste) < calcula_salario
+  end 
+
+  def resultado < calcula_reajuste
+    calc = (reajute * salario)/100
+    return "O salário reajustado é equivalente a: #{calc}"
+  end 
+end 
+
+salario = Salario.new 
+
+
+Salario.calcula_salario
+
+puts "Informe o seu salário: "
+salario = gets.chomp.to_f
